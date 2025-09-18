@@ -1,3 +1,4 @@
+int delayTime = 1000;
 
 void setup() {
  
@@ -11,25 +12,25 @@ void setup() {
 void loop() {
   // Turn ON LEDs one by one
   digitalWrite(12, HIGH);
-  delay(1000);
+  delay(delayTime);
   digitalWrite(11, HIGH);
-  delay(1000);
+  delay(delayTime);
   digitalWrite(10, HIGH);
-  delay(1000);
+  delay(delayTime);
   digitalWrite(9, HIGH);
-  delay(1000);
+  delay(delayTime);
   digitalWrite(8, HIGH);
-  delay(1000);
+  delay(delayTime);
 
   // Turn OFF LEDs one by one
   digitalWrite(12, LOW);
-  delay(1000);
+  delay(delayTime);
   digitalWrite(11, LOW);
-  delay(1000);
+  delay(delayTime);
   digitalWrite(10, LOW);
-  delay(1000);
+  delay(delayTime);
   digitalWrite(9, LOW);
-  delay(1000);
+  delay(delayTime);
   digitalWrite(8, LOW);
-  delay(1000);
+  delay(delayTime);
 }
